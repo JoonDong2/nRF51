@@ -1,8 +1,11 @@
 # Noise Detector project
 
 This implement custom BLE (Bluetooth Low Energe) service. I call this 'Noise Detector service'.
-You can see details of this project and related project in this blog, which is written Korean but, I have plan to tranlate English.
+
+You can see details of this project and related project in [this blog](http://joondong.tistory.com/), which is written Korean but, I have plan to tranlate English.
+
 To test this service, I made [microphone-amplifier circuit](http://joondong.tistory.com/38?category=685026) and [Android application](https://github.com/JoonDong2/Android)
+
 The noise signal amplified through LM358 input P0.04(AIN5) and converted to 8-bits data, then broadcasted to a peer through 'Detected Noise Value characteristic'
 This project is controlled by client(Android application) through 'Detected Noise Value characteristic'.
 
@@ -21,13 +24,15 @@ Data collected through ADC is written to this characteristic's value attribute a
 
 ## Noise Detector Service Control Point characteristic.
 
-### Video
+## Video
 
 You can see vedio of entire projects including android application in [this link](http://joondong.tistory.com/28?category=651762)
+
 
 # Additional component
 
 This project include battery service and [checking battery levle circuit](http://joondong.tistory.com/41?category=685026).
+
 
 # Dependancy
 
