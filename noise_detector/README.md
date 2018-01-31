@@ -15,9 +15,13 @@ This project is controlled by client(Android application) through `Detected Nois
 Noise Detector service is composed of two characteristics (Detected Noise Value characteristic and Noise Detector Service Control Point characteristic.)
 
 `Base UUID` f673**XXXX**-0994-4967-bdf9-5e7702990a50
+
 `Noise Detector Service UUID` **8d00**
+
 `Detected Value Characteristic` **8d01**
+
 `Noise Detector Controlpoint Characteristic` **8d02**
+
 
 ## Detected Noise Value characteristic
 
