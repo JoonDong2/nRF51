@@ -1,0 +1,25 @@
+Copyright (c) 2017, JoonDong
+
+All rights reserved.
+
+Copyright holder's blog : http://joondong.tistory.com
+
+
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+소스와 바이너리 형태로 재배포와 사용은 다음 조건들을 만족한 경우에만 허용됩니다.
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+소스 코드의 재배포는 위의 저작권 표시, 조건 목록, 다음의 면책 조항을 포함시켜야합니다.
+
+Copyright holder's blog address must be located under the copyright notice.
+저작권자의 블로그 주소가 반드시 저작권 표시 아래 위치해야 합니다.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+바이너리 형태로 재배포는 반드시 위의 저작권 표시, 조건 목록, 다음의 면책 조항을 배포시 제공된 설명서 및 / 또는 기타 자료에 포함시켜야합니다.
+
+Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+사전 서면 허가없이이 소프트웨어에서 파생 된 제품을 보증하거나 홍보하기 위해 저작권 소유자의 이름이나 기여자의 이름을 사용할 수 없습니다.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+이 소프트웨어는 저작권 소유자 및 기여자가 "있는 그대로"제공되며, 상품성 및 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하여 (단, 이에 한하지 않음) 명시 적 또는 묵시적 보증이 배제됩니다. 저작권 소유자 또는 기여자는 어떠한 경우에도 직접, 간접, 우발적, 우발적, 특수 또는 우발적 인 손해 (대체 상품 또는 서비스의 조달, 사용, 데이터 또는 이익의 손실 또는 비즈니스 중단을 포함하되 이에 국한되지 않음)에 대해 책임을지지 않습니다. 계약 위반, 엄격한 책임 또는 불법 행위 (태만 또는 기타 포함)에 관계없이 책임을지지 않습니다. 단, 이러한 경우에는 그러한 손해의 가능성을 사전에 알고 있던 경우에도 마찬가지입니다.
