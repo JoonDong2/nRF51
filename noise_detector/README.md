@@ -30,13 +30,20 @@ This characteristic can be written or broadcasted, not read.
 Value attribute of this is composed of two bytes.
 
 `index 0` Command code
+
 >0x0 : Reserved
+
 >0x1 : Request turn off noise detector(in this project, set P0.08 from `High` to `Low` linked Power mosfet)
+
 >0x2 : Request turn on noise detector
 
+
 `index 1` Result code
+
 >0x0 : Reserved
+
 >0x1 : SUCCESS
+
 >0x2 : FAIL
 
 Client(Android application) only populates `index 0` and send it to the server(this project).
