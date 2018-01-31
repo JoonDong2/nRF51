@@ -1,10 +1,10 @@
 # Noise Detector project
 
-This implement custom BLE (Bluetooth Low Energe) service. I call this `Noise Detector service`.
+This implement custom BLE (Bluetooth Low Energe) service. I call this `Noise Detector service`. and this project is responsible for server.
 
 You can see details of this project and related project in [this blog](http://joondong.tistory.com/), which is written Korean but, I have plan to tranlate English.
 
-To test this service, I made [microphone-amplifier circuit](http://joondong.tistory.com/38?category=685026) and [Android application](https://github.com/JoonDong2/Android)
+To test this service, I made [microphone-amplifier circuit](http://joondong.tistory.com/38?category=685026) and [Android application](https://github.com/JoonDong2/Android)(responsible for client).
 
 The noise signal amplified through LM358 input P0.04(AIN5) and converted to 8-bits data, then broadcasted to a peer through `Detected Noise Value characteristic`.
 
@@ -24,6 +24,24 @@ Noise Detector service is composed of two characteristics (Detected Noise Value 
 Data collected through ADC is written to this characteristic's value attribute and broadcasted to a peer.
 
 ## Noise Detector Service Control Point characteristic.
+
+This characteristic can be written or broadcasted, not read.
+
+Value attribute of this is composed of two bytes.
+
+`index 0` Command code
+0x0 : Reserved
+0x1 : Request turn off noise detector(in this project, set P0.08 from `High` to `Low` linked Power mosfet)
+0x2 : Request turn on noise detector
+
+`index 1` Result code
+0x0 : Reserved
+0x1 : SUCCESS
+0x2 : FAIL
+
+Client(Android application) only populates `index 0` and send it to the server(this project).
+
+Then, server executes an operation according to `Command code`, populating the result and back it to client again. 
 
 ## Video
 
