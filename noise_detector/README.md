@@ -10,7 +10,7 @@ The noise signal amplified through LM358 input P0.04(AIN5) and converted to 8-bi
 
 This project is controlled by client(Android application) through `Detected Noise Value characteristic`.
 
-`ble_app_nds_gcc_nrf51.ld` file need to be modified for porting nRF51822 because this project is based on PCA10028.
+`ble_app_nds_gcc_nrf51.ld` file may need to be modified for porting nRF51822 because this project is based on PCA10028.
 
 Noise Detector service is composed of two characteristics (Detected Noise Value characteristic and Noise Detector Service Control Point characteristic.)
 
@@ -37,7 +37,7 @@ Value attribute of this is composed of two bytes.
 
 >0x0 : Reserved
 >
->0x1 : Request turn off noise detector(in this project, set P0.08 from `High` to `Low` linked Power mosfet)
+>0x1 : Request turn off noise detector(in this project, set P0.08 from `Low` to `High` linked p-ch power mosfet)
 >
 >0x2 : Request turn on noise detector
 
