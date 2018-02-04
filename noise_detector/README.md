@@ -54,14 +54,16 @@ Client(Android application) only populates `index 0` and send it to the server(t
 
 Then, server executes an operation according to `Command code`, populating the result and back it to client again. 
 
+You can see more details in [this post](http://joondong.tistory.com/46)
+
 ## Video
 
-You can see vedio of entire projects including android application in [this link](http://joondong.tistory.com/28?category=651762)
+You can see vedio of entire projects including android application at the bottom of [this link](http://joondong.tistory.com/28?category=651762)
 
 
 # Additional component
 
-This project include battery service and [checking battery levle circuit](http://joondong.tistory.com/41?category=685026).
+This project include battery service and [checking battery level circuit](http://joondong.tistory.com/41?category=685026).
 
 
 # Dependancy
